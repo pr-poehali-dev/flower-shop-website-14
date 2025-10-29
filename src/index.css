@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -15,17 +15,17 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
 
-    --primary: 340 82% 52%;
+    --primary: 280 65% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 160 60% 45%;
+    --secondary: 320 70% 65%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 85 60% 94%;
     --muted-foreground: 0 0% 40%;
 
-    --accent: 340 100% 97%;
-    --accent-foreground: 340 82% 52%;
+    --accent: 280 100% 98%;
+    --accent-foreground: 280 65% 50%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -99,7 +99,8 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Inter", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
   }
 
   h1,
@@ -108,7 +109,8 @@
   h4,
   h5,
   h6 {
-    font-family: "Playfair Display", serif;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
+    letter-spacing: 0.02em;
   }
 }
